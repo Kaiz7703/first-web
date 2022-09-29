@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hahaha</h1>
+    <?php session_unset();
+    echo "<script>alert('You need to log in again');location='giaodien.php?action=login';</script>";
+    ?>
+
 </body>
 </html>

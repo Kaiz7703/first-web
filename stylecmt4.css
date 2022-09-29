@@ -1,0 +1,131 @@
+body{
+    background-color: #ddd;
+
+}
+textarea{
+    width: 400px;
+    height: 80px;
+    background-color: #fff;
+    resize: none;
+}
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #282828;
+    border: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 60px;
+}
+.comment-box{
+    width: 1000px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgba(92, 207, 217, 0.929);
+    border-radius: 8px;
+    position: relative;
+
+}
+.comment-box p{
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0f0e0e;
+    font-weight: 100;
+}
+.binhluan-box{
+    width: 1000px;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: rgba(92, 207, 217, 0.929);
+    border-radius: 4px;
+    position: relative;
+    left: 80px;
+
+}
+.binhluan-box p{
+    font-family: arial;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0f0e0e;
+    font-weight: 100;
+}
+.edit-form{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.edit-form button{
+    width: 40px;
+    height: 20px;
+    color: #0f0e0e;
+    background-color: rgba(92, 207, 217, 0.929);
+    opacity: 0.7;
+}
+.edit-form button:hover{
+    opacity: 1;
+    
+}
+.cmt-form{
+    position: absolute;
+    top: 0px;
+    right: 140px;
+}
+.cmt-form button{
+    width: 40px;
+    height: 20px;
+    color: #0f0e0e;
+    background-color: rgba(92, 207, 217, 0.929);
+    opacity: 0.7;
+}
+.cmt-form button:hover{
+    opacity: 1;
+}
+.delete-form{
+    position: absolute;
+    top: 0px;
+    right: 60px;
+}
+.delete-form button{
+    width: 40px;
+    height: 20px;
+    color: #0f0e0e;
+    background-color: rgba(92, 207, 217, 0.929);
+    opacity: 0.7;
+}
+.delete-form button:hover{
+    opacity: 1;
+}
+.edit2-form{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.edi2-form button{
+    width: 40px;
+    height: 20px;
+    color: #0f0e0e;
+    background-color: rgba(92, 207, 217, 0.929);
+    opacity: 0.7;
+}
+.edit2-form button:hover{
+    opacity: 1;
+    
+}
+.delete2-form{
+    position: absolute;
+    top: 0px;
+    right: 120px;
+}
+.delete2-form button{
+    width: 40px;
+    height: 20px;
+    color: #0f0e0e;
+    background-color: rgba(92, 207, 217, 0.929);
+    opacity: 0.7;
+}
+.delete2-form button:hover{
+    opacity: 1;
+}
